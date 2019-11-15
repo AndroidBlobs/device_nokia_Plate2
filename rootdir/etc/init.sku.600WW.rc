@@ -1,0 +1,4 @@
+on fs
+    setprop ro.product.vendor.device PL2_sprout
+on fs
+	setprop ro.vendor.build.fingerprint Nokia/Plate2_00WW/PL2_sprout:9/PPR1.180610.011/00WW_3_260:user/release-keys

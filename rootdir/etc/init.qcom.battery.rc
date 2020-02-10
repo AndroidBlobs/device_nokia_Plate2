@@ -8,7 +8,6 @@ on boot
 
     chown system system /sys/class/power_supply/battery/device/otg_status
     chmod 0664 /sys/class/power_supply/battery/device/otg_status
-    restorecon /sys/class/power_supply/battery/device/otg_status    
+    
     chown system system /sys/class/power_supply/battery/device/lcm_status
     chmod 0664 /sys/class/power_supply/battery/device/lcm_status
-    restorecon /sys/class/power_supply/battery/device/lcm_status
